@@ -1,0 +1,11 @@
+{
+  "name": "wse",
+  "version": "0.0.1",
+  "description": "web api server engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
