@@ -1,11 +1,38 @@
 {
-  "name": "wse",
+  "name": "web_api_server_engine",
   "version": "0.0.1",
-  "description": "web api server engine",
+  "description": "Web api Server Engine. for Sequelize user. easy to make CRUD or custom apis, and handle permissions.",
+  "keywords": [
+    "web",
+    "api",
+    "server",
+    "rest",
+    "crud",
+    "permission"
+  ],
+  "homepage": "https://github.com/hungrydoggy/WSE",
+  "bugs": {
+    "url": "https://github.com/hungrydoggy/WSE/issues",
+    "email": "jhoney510@gmail.com"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": {
+    "name": "John Kim",
+    "email": "jhoney510@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hungrydoggy/WSE.git"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "relaxed-json": "^1.0.3",
+    "sequelize": "^6.3.0",
+    "uuid": "^8.2.0"
+  }
 }
