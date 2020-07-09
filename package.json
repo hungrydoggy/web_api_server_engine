@@ -28,6 +28,11 @@
     "type": "git",
     "url": "https://github.com/hungrydoggy/WSE.git"
   },
+  "files": [
+    "dist",
+    "doc",
+    "lib"
+  ],
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^8.5.1",
