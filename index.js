@@ -5,6 +5,7 @@ module.exports = {
 
   get api_util           () { return require('./lib/utils/api_util'          ); },
   get db_util            () { return require('./lib/utils/db_util'           ); },
+  get doc_util           () { return require('./lib/utils/doc_util'          ); },
   get jwt_util           () { return require('./lib/utils/jwt_util'          ); },
   get mongo_archive_util () { return require('./lib/utils/mongo_archive_util'); },
   get none_archive_util  () { return require('./lib/utils/none_archive_util' ); },
