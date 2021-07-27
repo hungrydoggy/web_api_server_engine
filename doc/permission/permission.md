@@ -71,6 +71,10 @@
 `"User/{where:{id:%.id, '@group_id':%.group_id }}"` 가 된다.  
 두 쿼리는 완전히 동일한 동작을 한다.  
 
+value의 맨 앞에 `$`기호를 붙이면, `%.value` 형식이 아닌 `$`를 뺀 값이 된다.  
+예를 들어, `"User/%id,is_banned:$false"`를 긴 쿼리로 바꾸면,
+`"User/{where:{id:%.id, 'is_banned':false}}"` 가 된다.  
+
 &nbsp;  
 #### 각 짧은 쿼리와 동일한 긴 쿼리 예제
 ```js
