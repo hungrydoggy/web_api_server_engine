@@ -1,6 +1,6 @@
 {
   "name": "web_api_server_engine",
-  "version": "0.3.15",
+  "version": "0.3.17",
   "description": "Web api Server Engine. for Sequelize user. easy to make CRUD or custom apis, and handle permissions.",
   "keywords": [
     "web",
@@ -38,7 +38,7 @@
     "jsonwebtoken": "^8.5.1",
     "lodash.clonedeep": "^4.5.0",
     "relaxed-json": "^1.0.3",
-    "sequelize": "^6.3.4",
+    "sequelize": "^6.6.2",
     "uuid": "^8.2.0"
   }
 }
