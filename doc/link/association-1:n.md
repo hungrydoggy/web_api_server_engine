@@ -68,6 +68,10 @@ module.exports = Human;
 | :--------: | :-----: | :--------: | :----------: | :-----------: | :------------: |
 |   mom_id   |   mom   |   Humans   |      id      |   children    |       CR       |
 
+> `has-namy-name`(children 부분)은 comma `,` 를 구분자로 여러개를 넣을 수 있다.  
+> 예를 들어, `@mom_id:mom.Humans:id:children,kids.CR` 이렇게 사용한다면,  
+> `children`과 `kids` 두개 전부 association 으로 link 된다.  
+
 각 분류의 설명은 다음과 같다.  
 ## head
 - `field-name`:  
